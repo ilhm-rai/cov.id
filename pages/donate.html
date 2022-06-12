@@ -1,0 +1,31 @@
+<section class="mt-1">
+    <div class="container">
+        <div class="card-donate">
+            <div class="card-img">
+                <img src="assets/img/ezgif.com-webp-to-jpg.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h3 class="uppercase text-red">Indonesia Bergotong Royong</h3>
+                <p>Bantu para tenaga medis Indonesia agar dapat meminimalisir terinfeksi oleh virus corona
+                    dengan menyediakan Alat Pelindung Diri (APD) </p>
+                <p class="mt-1">Terkumpul Rp.<span id="total">10,430,497,635,-</span></p>
+                <btn class="btn bg-red mt-1" id="donate" onclick='swal({
+                    buttons : {
+                            confirm : {
+                            text: "Donasi",
+                            id: "btnDonate"
+                        }
+                    },
+                    content: {
+                      element: "input",
+                      attributes: {
+                        placeholder: "Masukan besaran uang untuk donasi",
+                        type: "number",
+                        id: "inputDonate"
+                      },
+                    },
+                  });'>Donasi Sekarang</btn>
+            </div>
+        </div>
+    </div>
+</section>

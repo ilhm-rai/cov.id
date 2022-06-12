@@ -1,0 +1,5 @@
+Counter-Up2-master : https://www.jqueryscript.net/animation/Animating-Numbers-Counting-Up-with-jQuery-Counter-Up-Plugin.html
+sweetalert : https://sweetalert.js.org/docs/
+slick : https://kenwheeler.github.io/slick/
+datatables : https://datatables.net/
+waypoints : http://imakewebthings.com/waypoints/
